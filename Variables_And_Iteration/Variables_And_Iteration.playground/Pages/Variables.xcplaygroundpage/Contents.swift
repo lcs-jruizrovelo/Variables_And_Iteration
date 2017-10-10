@@ -25,7 +25,7 @@ var age = 40
  Notice in the sidebar that the age changes.
  */
 
-//age = 15
+age = 16
 
 /*:
  A variable, once set, is assigned a type by Swift, the programming language.
@@ -40,4 +40,4 @@ var age = 40
  
  */
 
-//age = "fifteen"
+age = "fifteen"

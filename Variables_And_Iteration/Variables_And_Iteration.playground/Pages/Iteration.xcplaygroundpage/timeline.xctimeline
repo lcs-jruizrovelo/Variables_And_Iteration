@@ -2,5 +2,20 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/jruizrovelo/Desktop/COMPUTER%20S./Variables_And_Iteration/Variables_And_Iteration/Variables_And_Iteration.playground/Pages/Iteration.xcplaygroundpage#CharacterRangeLen=12&amp;CharacterRangeLoc=730&amp;EndingColumnNumber=0&amp;EndingLineNumber=17&amp;StartingColumnNumber=5&amp;StartingLineNumber=16&amp;Timestamp=529339000.355205"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/jruizrovelo/Desktop/COMPUTER%20S./Variables_And_Iteration/Variables_And_Iteration/Variables_And_Iteration.playground/Pages/Iteration.xcplaygroundpage#CharacterRangeLen=1&amp;CharacterRangeLoc=1240&amp;EndingColumnNumber=0&amp;EndingLineNumber=37&amp;StartingColumnNumber=5&amp;StartingLineNumber=36&amp;Timestamp=529339000.355546"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/jruizrovelo/Desktop/COMPUTER%20S./Variables_And_Iteration/Variables_And_Iteration/Variables_And_Iteration.playground/Pages/Iteration.xcplaygroundpage#CharacterRangeLen=6&amp;CharacterRangeLoc=1273&amp;EndingColumnNumber=11&amp;EndingLineNumber=39&amp;StartingColumnNumber=5&amp;StartingLineNumber=39&amp;Timestamp=529339000.355764"
+         selectedRepresentationIndex = "1"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
