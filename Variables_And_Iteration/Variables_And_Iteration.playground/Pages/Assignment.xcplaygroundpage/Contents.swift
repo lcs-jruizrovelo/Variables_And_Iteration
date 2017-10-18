@@ -21,21 +21,28 @@ import PlaygroundSupport
 let canvas = Canvas(width: 500, height: 500)
 
 // No fill
-canvas.drawShapesWithFill = false
+//canvas.drawShapesWithFill = false
+//
+//// Loop to set horizontal position
+//for x in stride(from: 50, through: 450, by: 100) {
+//
+//    // Loop to set vertical position
+//    for y in stride(from: 450, through: 50, by: -100) {
+//
+//        // Draw five squares
+//        for size in stride(from: 100, through: 20, by: -20) {
+//              canvas.drawRectangle(centreX: x, centreY: y, width: size, height: size)
+//        }
+//    }
+//}
 
-// Loop to set horizontal position
-for x in stride(from: 50, through: 450, by: 100) {
-    
-    // Loop to set vertical position
-    for y in stride(from: 450, through: 50, by: -100) {
-        
-        // Draw five squares
-        for size in stride(from: 100, through: 20, by: -20) {
-              canvas.drawRectangle(centreX: x, centreY: y, width: size, height: size)
-        }
-    }
+// assignment (dots)
+for y in stride(from: 0, through: 250, by: 25) {
+    canvas.drawLine(fromX: 250, fromY: y, toX: 250, toY: 500)
+    canvas.drawLine(fromX: 250, fromY: y, toX: 500, toY: y+25)
+       
+
 }
-
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
