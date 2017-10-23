@@ -37,11 +37,16 @@ let canvas = Canvas(width: 500, height: 500)
 //}
 
 // assignment (dots)
-for y in stride(from: 0, through: 250, by: 25) {
-    canvas.drawLine(fromX: 250, fromY: y, toX: 250, toY: 500)
-    canvas.drawLine(fromX: 250, fromY: y, toX: 500, toY: y+25)
-       
 
+// lines
+canvas.drawLine(fromX: 250, fromY: 500, toX: 250, toY: 0)
+
+for y in stride(from: 0, to: 250, by: 25) {
+    canvas.drawLine(fromX: 250, fromY:y, toX: 500, toY: y+50)
+    canvas.drawLine(fromX: 250, fromY:y, toX: 0, toY: y+50)
+}
+for y in stride(from: 0, to: 250, by: -25) {
+    canvas.drawLine(fromX: y, fromY: 0, toX: 250, toY: y-50)
 }
 /*:
  ## Template code
