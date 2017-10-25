@@ -48,6 +48,12 @@ for y in stride(from: 0, to: 250, by: 25) {
 for y in stride(from: 0, to: 250, by: -25) {
     canvas.drawLine(fromX: y, fromY: 0, toX: 250, toY: y-50)
 }
+for y in stride(from: 475, to: 500, by: 25) {
+    canvas.drawLine(fromX: 500, fromY:y, toX: 250, toY: y+25)
+    canvas.drawLine(fromX: 0, fromY: y, toX: 250, toY: y+25)
+
+}
+
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
